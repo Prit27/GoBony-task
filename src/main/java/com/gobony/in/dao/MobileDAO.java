@@ -7,6 +7,6 @@ import com.gobony.in.model.MobileVO;
 
 public interface MobileDAO extends CrudRepository<MobileVO, Integer> {
 	
-	public MobileVO findByCustomerVO(CustomerVO customerVO);
+public MobileVO findByCustomer(CustomerVO customer);
 
 }
